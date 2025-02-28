@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="QUt4hwPIpnFwxF3FgauG">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="J3q8Tj8CXPFdWeIJV2fk-17" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Internet&lt;/b&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;spacingBottom=70;verticalAlign=middle;horizontal=1;spacingRight=2;" edge="1" parent="1" source="J3q8Tj8CXPFdWeIJV2fk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3q8Tj8CXPFdWeIJV2fk-1" value="Router&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.router;spacingTop=-14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="357.18" y="50" width="75.64" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="J3q8Tj8CXPFdWeIJV2fk-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J3q8Tj8CXPFdWeIJV2fk-2" target="J3q8Tj8CXPFdWeIJV2fk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3q8Tj8CXPFdWeIJV2fk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J3q8Tj8CXPFdWeIJV2fk-2" target="J3q8Tj8CXPFdWeIJV2fk-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3q8Tj8CXPFdWeIJV2fk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J3q8Tj8CXPFdWeIJV2fk-2" target="J3q8Tj8CXPFdWeIJV2fk-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3q8Tj8CXPFdWeIJV2fk-2" value="Switch" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;spacingTop=-19;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="170" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J3q8Tj8CXPFdWeIJV2fk-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.507;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="J3q8Tj8CXPFdWeIJV2fk-2" target="J3q8Tj8CXPFdWeIJV2fk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="260" as="sourcePoint" />
+            <mxPoint x="430" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3q8Tj8CXPFdWeIJV2fk-6" value="Desktop" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="63.57" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J3q8Tj8CXPFdWeIJV2fk-7" value="Laptop" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Laptop.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="364" y="327.11" width="62" height="62.89" as="geometry" />
+        </mxCell>
+        <mxCell id="J3q8Tj8CXPFdWeIJV2fk-8" value="Printer" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.printer;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J3q8Tj8CXPFdWeIJV2fk-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=-0.032;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="J3q8Tj8CXPFdWeIJV2fk-7" target="J3q8Tj8CXPFdWeIJV2fk-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="260" as="sourcePoint" />
+            <mxPoint x="430" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
